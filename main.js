@@ -1,6 +1,6 @@
 import getEntityById from "./entity-database.js";
-import Player from "./classes/Player";
-import Entity from "./classes/Entity";
+import Player from "./classes/Player.js";
+import Entity from "./classes/Entity.js/index.js";
 
 document.getElementById("button").addEventListener("click", (ev) => {
     if (opponent.length > 0) {

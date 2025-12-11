@@ -1,9 +1,4 @@
 class Entity {
-    name: string;
-    defense: number;
-    damage: number;
-    dodge: number;
-    bodyPart: object;
 
     constructor({
         name = "Entity",
