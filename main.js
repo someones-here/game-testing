@@ -1,6 +1,6 @@
 import getEntityById from "./entity-database.js";
 import Player from "./classes/Player.js";
-import Entity from "./classes/Entity.js/index.js";
+import Entity from "./classes/Entity.js";
 
 document.getElementById("button").addEventListener("click", (ev) => {
     if (opponent.length > 0) {
@@ -31,7 +31,7 @@ function showGameOver() {
 const player = new Player({
     name: "Mark",
     defense: 0,
-    damage: 30,
+    damage: 20,
     dodge: 0,
 });
 
